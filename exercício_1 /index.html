@@ -1,0 +1,39 @@
+<!-- declaração básica --> 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Proposta exercício 1</title>
+  <!-- estilização com CSS-->
+  <style>
+    body
+    { 
+      margin: 50; 
+      background: #222;
+      color: #fff; 
+      text-align: center; 
+    }
+    canvas
+    { 
+    background: #000;
+    border: 1px solid #555;
+    margin: 10px;
+    }
+    .info{ 
+    font-family: monospace;
+    font-size: 14px; 
+    }
+  </style>
+</head>
+<body>
+  <!-- Container para instruções do exercício -->
+  <div class="info">
+    R/r: Modo Reta | T/t: Modo Triângulo | K/k: Modo Cor | E/e: Modo Espessura<br>
+    0-9: Cores | 1-9: Espessura | Clique para desenhar
+  </div>
+  <!-- Cria o Canvas com o id para o js encontrá-lo, define a resolução 800x600 -->
+  <canvas id="canvas" width="800" height="600"></canvas>
+  <!-- Conecta o arquivo .js com o html-->
+  <script src="main.js"></script>
+</body>
+</html>
