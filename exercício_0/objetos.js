@@ -124,4 +124,3 @@ document.getElementById('menu').addEventListener('click', (e) =>
 });
 
 limpar();
-s
