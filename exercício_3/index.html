@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 3 </title>
+    <style>
+        body
+        { 
+            margin: 50; 
+            background:#222; 
+            color:#eee;
+            font-family: monospace;
+            text-align: center;
+        }; 
+        canvas 
+        {
+            margin: 12px;
+        }
+        button 
+        {
+            margin: 4px 8px; 
+            padding: 6px 14px 
+        }
+    </style>
+</head>
+<body>
+    <h3>Escolha o desenho</h3>
+    <div id="menu">
+    <button data-obj="robot">Robô</button>
+    <button data-obj="flower">Flower</button>
+    <button data-obj="car">Carro</button>
+    <button data-obj="windmill">Catavento</button>
+    </div>
+
+    <canvas id="meuCanvas" 
+    width="800" height="600"
+    style="background-color: black; border: 1px solid #FFF"></canvas>
+    <script src="objetos.js"></script>
+</body>
+</html>
